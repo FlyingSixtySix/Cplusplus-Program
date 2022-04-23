@@ -1,14 +1,14 @@
-# Software Development Lifecycle
+# Software Testing Automation & QA
 
-## How I interpret user needs and implement them into programs, and how user stories help
+## How I ensure my code, program, or software is functional and secure
 
-I think implementing user needs is a balancing game.  It can start out extremely broad but it can also start out extremely narrowed down, and either end can slow down the development process significantly.  By working on the product by using user stories, you start with a more broad idea of something and narrow it down in the finer details of the story.  During that process, you can determine how to prioritize it based on how much the customer needs it.
+To me, the most important aspect is following good software development standards.  This broadly means following industry standards depending on the language, framework, and other code aspects, but this can also mean following the standards used in the specific environment (like a company that limits third-party library usage).  Staying on top of security news and performing audits on the code can go a long way towards ensuring the code is functional and secure.
 
-## How I approach developing programs, and what agile process I hope to incorporate into future development work
+## How I interpret user needs and incorporate them into a program
 
-Personally, I feel like I do not need to fully implement an agile workflow into the way I develop applications, but in my opinion, that's the beauty of it.  Because being agile is a framework, I can choose whether to implement one aspect or another into my workflow.  As I had mentioned in the prior question, user stories start with a more broad idea and narrow it down in the finer details of the story.  I think I could start using this in my development process, as all applications start out as something more broad and narrow down into specific features more and more.
+Prioritize certain features as necessary, giving user stories a rank based on how important they might be.  This is typically the job of the project manager or someone who meets with the client(s), however.  Working alone, incorporating the large features first followed by the smaller features allows for you to not get overwhelmed with specific things to test until it's necessary.
 
-## What it means to be a good team member in software development
+## How I approach designing software
 
-My golden rule is to not shut yourself off from other team members.  I firmly believe that this will only lead to disaster with different and unclear accomplishment of certain goals.  For example, two team members might be working on the same concept without the knowledge of the other, which can lead to clashes in deciding which one would be best to implement.  Working together can lead to products being finished and pushed faster and more effectively, giving team members more time to work on what they want.  Staying calm and taking time to more fully think out a concept definitely helps, too.
+A software design document helps when working in a team, but alone, it's unorganized for the most part.  I struggle with keeping my software development lifecycle organized.  Perhaps something I can do is make a prioritized todo list with as many relevant/necessary features I can think of and work on them one-by-one, implementing tests as necessary.
 
