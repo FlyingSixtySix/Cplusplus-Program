@@ -1,4 +1,0 @@
-﻿LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
-glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\andre\Downloads\CS-330 7-1 Project\Debug\vc120.pdb'; linking object as if no debug info
-  CS-330 5-5 Texturing Objects in a 3D Scene.vcxproj -> C:\Users\andre\Downloads\CS-330 7-1 Project\Debug\CS-330 5-5 Texturing Objects in a 3D Scene.exe

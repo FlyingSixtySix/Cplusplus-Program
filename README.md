@@ -1,13 +1,16 @@
-# Comp Graphic and Visualization
+# Client/Server Development
 
-## How I approach designing software
+## How I write maintainable, readable, and adaptable programs
 
-For the most part, when I work on designing new software, I aim to streamline the process of development by implementing modular code.  I made sure to apply industry standards for designing software applications, meaning it can easily be applied in future work.
+The most important aspect showcased this course was the usage of code modulization.  Storing code related to interfacing with the `animal_shelter` collection in `animal_shelter.py` allowed for re-use in different instances.  For example, when working on project one, I was able to keep the project-specific code in `ProjectOne.ipynb` and `ProjectTwo.ipynb` as opposed to a singular monolithic file.  Developing with modern object-oriented programming techniques certainly helps, such as with classes and class functions.
 
-## How I approach developing programs
+In the end, while the course was meant to demonstrate how I can make use of a driver class with PyMongo, I felt like it could have all been done in a singular file seeing as no further modifications were made to results returned by the database, such as caching or transforming it into a different data type.
 
-Like before, I develop by using modular code.  First development starts out as a simple 1-2-3 step process, but as the software grows, it becomes necessary at a certain point to modularize code as best as I can.  There is such thing as being *too* modular, which I did my best to avoid in this class.  I iterated with different modular designs over this course, leading to a better overall design.  Through the milestones, I learned about different OpenGL techniques that I wasn't aware of before, broadening my knowledge, which is always a good thing!
+## How I approach problems as a computer scientist
 
-## How computer science helps me in reaching my goals
+It's simple.  Write re-usable code with purpose.  Avoid unnecessary hoops and document so that future contributors may further development.  My approach did not differ this course and other courses, seeing as how the way I approach problems has not faltered.
 
-With basic knowledge of computational graphics and visualization, I can fairly easily render what I have in mind when it comes to something more specific, because while there are certain 3D applications that can handle the generic part of the process for me, nothing will beat writing the mechanics and software process behind rendering EXACTLY what I had in mind.  I don't see too much of a difference between applying the skills learned here in an educational context nor professional context, but it's good to have none the less.
+## What computer scientists do
+
+The way I see it, computer scientists solve problems, answer questions, and perform various tasks to accomplish goals using modern solutions involving computers.  The work I performed was modularizing database-accessing code, which could help at the start of a large codebase, in case I wanted to add some other layer to the CRUD functions.
+
