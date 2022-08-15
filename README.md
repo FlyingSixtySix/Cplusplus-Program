@@ -1,16 +1,26 @@
-# Client/Server Development
+# Emerging Sys Arch & Tech
 
-## How I write maintainable, readable, and adaptable programs
+## Project
 
-The most important aspect showcased this course was the usage of code modulization.  Storing code related to interfacing with the `animal_shelter` collection in `animal_shelter.py` allowed for re-use in different instances.  For example, when working on project one, I was able to keep the project-specific code in `ProjectOne.ipynb` and `ProjectTwo.ipynb` as opposed to a singular monolithic file.  Developing with modern object-oriented programming techniques certainly helps, such as with classes and class functions.
+The main project for CS-350 involved making a heater controller/thermostat that would turn on a heater if it fell below the set temperature.  The temperature could be adjusted up or down a degree (in celsius) with two of the buttons on the CC3220x-LAUNCHXL.
 
-In the end, while the course was meant to demonstrate how I can make use of a driver class with PyMongo, I felt like it could have all been done in a singular file seeing as no further modifications were made to results returned by the database, such as caching or transforming it into a different data type.
+## What I did particularly well
 
-## How I approach problems as a computer scientist
+I worked on my code iteratively and debugged with the tools at my full disposal, allowing me to accomplish all programming tasks on the same day, within a few hours in most cases.
 
-It's simple.  Write re-usable code with purpose.  Avoid unnecessary hoops and document so that future contributors may further development.  My approach did not differ this course and other courses, seeing as how the way I approach problems has not faltered.
+## Where I could improve
 
-## What computer scientists do
+Error handling seemed practically non-existent, with errors simply looping forever instead of taking further action.  Though, I suppose there isn't much that can actually be done.
 
-The way I see it, computer scientists solve problems, answer questions, and perform various tasks to accomplish goals using modern solutions involving computers.  The work I performed was modularizing database-accessing code, which could help at the start of a large codebase, in case I wanted to add some other layer to the CRUD functions.
+## What tools and/or resources I added to my support network
+
+I didn't add anything in particular, but my love for Stack Overflow and in-code documentation has strengthened.  Thank you, developers before me!  I hope to live up to their expectations and document my code even better.
+
+## Transferable skills
+
+Iterative development and debugging are the two largest ones.  Anything else will come naturally.
+
+## Making this project maintainable, readable, and adaptable
+
+Modularization of code, commenting where necessary (NO OVER-COMMENTING), and coming up with straight-forward code solutions to problems.
 
