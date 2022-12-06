@@ -1,32 +1,18 @@
-# Mobile Architect & Programming
+# Current/Emerging Trends in CS
 
-## What user needs the app was designed to address
+## What code was I given? What code did I create myself?
 
-For context, the app I designed was an event tracker that allows users to log in and register an account, and create events with text and an associated date and time.  The end goal was for this to be a functioning event tracker which would notify users when an event came up, with a multi-user system so that events are safe and secure.
+I was given most of the code in this course, but I was able to implement a solution to the cartpole problem and write the code that handles the treasure hunt model and the training process of it.
 
-## What screens and features were necessary to support user needs and product a user-centered UI for the app
+## What do computer scientists do and why does it matter?
 
-Keeping the screens simple was a top priority for me.  To meet user needs, I had to create a screen to log in/register, the main screen to list events and a couple buttons, a manage notifications screen to request SMS permission, and a manage event screen which would act as the add and edit screen.  There is also a dummy screen only used to refresh the RecyclerView dataset when returned from, such as when deleting an event. I did not know of any other clean way to do it from inside an Adapter's ViewHolder.
+From my understanding, computer scientists study and progress the science of computer systems, and it matters because computers make up an incredibly large part of society, from utilities to entertainment.  We are seeking progress to make those systems more efficient to hopefully serve society in a positive way.
 
-## How I approached the process of coding the app
+## How do I approach a problem as a computer science?
 
-Taking it screen-by-screen to keep my thought processes narrowed down was critical in getting the entire app written in half a day.  Looking up basic issues and tutorials also helped, because I now know of a good way to approach designing and developing my application without getting so hung up on the details.
+I avoid duplicate effort while still learning while I can.  A majority of problems that I've run into can be solved like building blocks, where pieces of code or software can be put together to form a larger, unique solution for me.  It really depends.
 
-## How I test to ensure my code is functional
+## What are my ethical responsibilities to the end user and the organization?
 
-Having the app running in the emulator at all times helps, as well as refreshing the activity when smaller changes are made.  Sometimes changes would require restarting the activity altogether, but having the application running on the side definitely helped visualize and keep the end goal at the top of my head.  Following good tutorials and ensuring there are no errors in the IDE helped tremendously.
-
-## Where I had to innovate to overcome a challenge
-
-I had to create a dummy screen with nothing in it to act as a "refresh" event for the RecyclerView when an event is deleted.  I can feel that it isn't the proper way to go about deleting a RecyclerView item and refreshing, but it worked without any flaws, so I kept it as-is.  If I had the time to revisit the way the app was designed, I would look into examples of how other people do the same abstract idea of refreshing a RecyclerView's dataset from inside an Adapter's ViewHolder.
-
-## What specific component I was particularly successful in demonstrating my knowledge, skills, and experience
-
-Nothing.
-
-
-
-Kidding, I feel like the way I handled the login process was particularly clean, as well as going from the main screen to the manage event screen.  I believe other students may have had a couple different screens to add and edit an event, but I was able to narrow it down to a single manage screen, which I am proud of.
-
-I believe my experience of development shows in the way I lay out my code cleanly and comment where I feel is necessary, though I *did* have points docked off for not commenting enough.  I thought it was self-documenting! ;(
+This is a broad question, but I like the sentiment of *do no evil.*  I like making code that *works* and serves to benefit both the end user and the organization, with heavy preference toward the end user.
 
